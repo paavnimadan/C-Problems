@@ -7,12 +7,15 @@ int factorial(int n) {
     fact=fact*i;
     }
     return fact;
+
 }
 int main() {
+
    int n,r;
+
     cout<<"Enter n and r: ";
     cin>>n>>r;
     int ncr = factorial(n) / (factorial(r) * factorial(n-r));
-    cout<<"Binomial Coefficient is "<<ncr<<endl;
+    cout<<" Binomial  Coefficient  is "<<ncr<<endl;
     return 0;
 }
